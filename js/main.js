@@ -35,3 +35,19 @@ var tigres = String.jiberish("Tres tristes tigres comian trigo en tres tristes p
 console.log(tigres);
 var cigarra = String.jiberish("erre con erre cigarra, erre con erre barril, rapido ruedan los carros tirando el azucar por el ferrocarril");
 console.log(cigarra);
+
+
+hola_array = "hola mundo".split("");
+console.log(hola_array);
+
+hola_string = hola_array.join("");
+console.log(hola_string);
+
+var ar1 = [1,2,3,4,5,6];
+var ar2 = [7,8,9];
+ar3 = ar1.concat(ar2);
+console.log(ar3);
+
+ar3.forEach(function(element , index , array){
+  console.log("index" + index + "element" + element);
+});
